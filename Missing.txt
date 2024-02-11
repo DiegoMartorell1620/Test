@@ -1,0 +1,9 @@
+After generating the token, leave the page open. You will need to use the token for authentication in a later step.
+
+Next, follow these steps in your command line:
+
+Enter the following code with your GitHub username, then hit Enter to set your git username.
+git config --global user.name <your_username>
+
+Next, enter git config --global user.password <your_token> using your personal access token from the GitHub window left open in the previous step in place of a password, then hit Enter.
+Nice work! You have now completed the Token Setup. As you will learn, GitHub is a collaborative tool—you can pull any changes down to your local repository quickly and easily, allowing you to easily share different versions of your code across workstations and to easily checkout and test those versions on your local computer.
